@@ -1,0 +1,19 @@
+#header{
+    background: red !important;
+}
+
+#navbar-2{
+    margin-left: auto !important;
+}
+
+.header a{
+    color: white !important;
+}
+
+#icons{
+    border-color: white !important;
+}
+
+#hamburger:hover{
+    color: white !important;
+}
