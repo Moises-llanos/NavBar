@@ -1,14 +1,21 @@
 #header{
-    background: red !important;
+    background: #B6B6B6 !important;
 }
 
-#navbar-2{
-    margin-left: auto !important;
-}
-
-.header a{
+.btn-moon{
+    background: #7952B3 !important;
     color: white !important;
 }
+
+/* #navbar-2{
+    margin-left: auto !important;
+} */
+
+.header a{
+    color: black !important;
+}
+
+
 
 #icons{
     border-color: white !important;
@@ -16,4 +23,28 @@
 
 #hamburger:hover{
     color: white !important;
+}
+.carousel{
+    background: linear-gradient(to right, #66C7FD, #087ACC);
+    position: relative;
+}
+
+.carousel .carousel-inner img{
+    max-height: 50vh;
+    object-fit: cover;
+    filter: grayscale(60%);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.carousel .overlay .container,
+.carousel .overlay .row{
+    height: 100%;
 }
